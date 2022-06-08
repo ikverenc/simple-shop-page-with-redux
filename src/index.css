@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap");
+
+:root {
+    /* s-small m-medium mb-medium-bold b-bold */
+    --main-font: "Sora", sans-serif;
+    --s-size: 400;
+    --m-size: 500;
+    --mb-size: 600;
+    --b-size: 700;
+    --body-background-color: #20202a;
+    --mb--color: #2b2a38;
+    --m-color: #2a2b38;
+    --form-heading-color: #f6e5a4;
+    --form-input-color: #cac9d0;
+    /* form */
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--body-background-color);
+    font-family: var(--main-font);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
